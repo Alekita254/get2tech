@@ -1,5 +1,5 @@
 import { Statistics } from "./Statistics";
-import pilot from "../assets/pilot.png";
+import about from "../assets/about.png"
 
 export const About = () => {
   return (
@@ -10,7 +10,7 @@ export const About = () => {
       <div className="bg-muted/50 border rounded-lg py-12">
         <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
           <img
-            src={pilot}
+            src={about}
             alt=""
             className="w-[300px] object-contain rounded-lg"
           />
@@ -20,14 +20,14 @@ export const About = () => {
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
                   About{" "}
                 </span>
-                Company
+                Ghetto Tech
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit.
+                Ghetto Tech started with a simple idea—turning challenges into opportunities.
+                From urban communities where resources are scarce to the minds of people who won’t settle for less,
+                we’ve been creating practical solutions that make a difference.
+                What began as small-scale projects aimed at tackling safety risks has grown into impactful products that work in real life,
+                not just in theory. We’re not waiting for change to come—we’re building it, and we’re inviting you to be part of this journey
               </p>
             </div>
 
