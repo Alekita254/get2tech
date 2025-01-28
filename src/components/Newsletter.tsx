@@ -19,7 +19,7 @@ export const Newsletter = () => {
           </span>
         </h3>
         <p className="text-xl text-muted-foreground text-center mt-4 mb-8">
-          Lorem ipsum dolor sit amet consectetur.
+          Get the latest updates, insights, and exclusive content delivered straight to your inbox.
         </p>
 
         <form
@@ -27,7 +27,7 @@ export const Newsletter = () => {
           onSubmit={handleSubmit}
         >
           <Input
-            placeholder="leomirandadev@gmail.com"
+            placeholder="youremail@gmail.com"
             className="bg-muted/50 dark:bg-muted/80 "
             aria-label="email"
           />

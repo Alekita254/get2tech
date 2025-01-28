@@ -13,7 +13,7 @@ export const Footer = () => {
             className="font-bold text-xl flex"
           >
             <LogoIcon />
-            ShadcnUI/React
+            Get2Tech
           </a>
         </div>
 
@@ -51,14 +51,14 @@ export const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Platforms</h3>
+          <h3 className="font-bold text-lg">Services</h3>
           <div>
             <a
               rel="noreferrer noopener"
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Web
+              Web Development
             </a>
           </div>
 
@@ -68,7 +68,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Mobile
+              Big Data
             </a>
           </div>
 
@@ -78,7 +78,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Desktop
+              Cyber Security
             </a>
           </div>
         </div>
@@ -91,7 +91,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Features
+              Our Team
             </a>
           </div>
 
@@ -101,7 +101,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Pricing
+              Career
             </a>
           </div>
 
@@ -111,7 +111,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              FAQ
+              Contact
             </a>
           </div>
         </div>
@@ -144,7 +144,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Twitch
+              Tech Blog
             </a>
           </div>
         </div>
@@ -152,15 +152,15 @@ export const Footer = () => {
 
       <section className="container pb-14 text-center">
         <h3>
-          &copy; 2024 Landing page made by{" "}
-          <a
-            rel="noreferrer noopener"
-            target="_blank"
-            href="https://www.linkedin.com/in/leopoldo-miranda/"
-            className="text-primary transition-all border-primary hover:border-b-2"
-          >
-            Leo Miranda
-          </a>
+          &copy; 2023 Get2Tech. All rights reserved{" "}
+          {/*<a*/}
+          {/*  rel="noreferrer noopener"*/}
+          {/*  target="_blank"*/}
+          {/*  href="https://www.linkedin.com/in/leopoldo-miranda/"*/}
+          {/*  className="text-primary transition-all border-primary hover:border-b-2"*/}
+          {/*>*/}
+          {/*  Leo Miranda*/}
+          {/*</a>*/}
         </h3>
       </section>
     </footer>
