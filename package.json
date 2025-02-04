@@ -1,19 +1,19 @@
 {
-  "name": "shadcn-landing-page-template",
-  "description": "Landing page template utilizing Shadcn, React, Typescript, and Tailwind CSS for rapid development and responsive design.",
+  "name": "Alex Murimi-page",
+  "description": "A good developed landing page.",
   "author": {
-    "name": "Leopoldo Miranda",
-    "email": "leomirandadev@gmail.com",
-    "url": "https://github.com/leoMirandaa"
+    "name": "Alex Murimi",
+    "email": "amurimi332@gmail.com",
+    "url": "https://github.com/Alekita254"
   },
   "license": "MIT",
   "keywords": [
     "react",
     "typescript",
-    "shadcn",
-    "shadcn/ui",
+    "Alex Murimi",
+    "ghetto Tech",
     "tailwind",
-    "landing-page",
+    "Tech Services",
     "template",
     "responsive-design"
   ],

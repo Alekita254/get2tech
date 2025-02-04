@@ -13,17 +13,17 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "What is Get2Tech?",
-    answer: "Get2Tech (or Ghetto Tech) is a movement focused on providing tech solutions and opportunities for underserved communities, empowering innovation from the grassroots up.",
+    question: "What is Alex Murimi?",
+    answer: "Alex Murimi (or Ghetto Tech) is a movement focused on providing tech solutions and opportunities for underserved communities, empowering innovation from the grassroots up.",
     value: "item-1",
   },
   {
-    question: "How can I be part of Get2Tech?",
+    question: "How can I be part of Alex Murimi?",
     answer: "You can join our community by following our social media, attending workshops, or contributing your skills to our open projects.",
     value: "item-2",
   },
   {
-    question: "What kind of projects does Get2Tech work on?",
+    question: "What kind of projects does Alex Murimi work on?",
     answer: "We develop innovative tech solutions in AI, software development, and hardware automation to address real-world challenges, particularly for marginalized communities.",
     value: "item-3",
   },
@@ -33,7 +33,7 @@ const FAQList: FAQProps[] = [
     value: "item-4",
   },
   {
-    question: "How can I support Get2Tech?",
+    question: "How can I support Alex Murimi?",
     answer: "You can support us by collaborating on projects, spreading awareness, or providing resources such as mentorship, funding, or hardware donations.",
     value: "item-5",
   },

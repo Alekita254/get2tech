@@ -8,7 +8,7 @@ export const Hero = () => {
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
             <span className="inline bg-gradient-to-r from-[#38b000] to-[#a855f7]  text-transparent bg-clip-text">
-              get2Tech:
+              Alex Murimi:
             </span>{" "}
             Innovate.
           </h1>{" "}
@@ -21,7 +21,7 @@ export const Hero = () => {
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          We believe in empowering individuals and businesses to embrace the future of technology.
+          I believe in empowering individuals and businesses to embrace the future of technology.
           By turning vision into reality with next-gen Tech.
         </p>
 

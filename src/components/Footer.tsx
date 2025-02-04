@@ -13,7 +13,7 @@ export const Footer = () => {
             className="font-bold text-xl flex"
           >
             <LogoIcon />
-            Get2Tech
+            Alex Murimi
           </a>
         </div>
 
@@ -152,7 +152,7 @@ export const Footer = () => {
 
       <section className="container pb-14 text-center">
         <h3>
-          &copy; 2023 Get2Tech. All rights reserved{" "}
+          &copy; 2023 Alex Murimi. All rights reserved{" "}
           {/*<a*/}
           {/*  rel="noreferrer noopener"*/}
           {/*  target="_blank"*/}

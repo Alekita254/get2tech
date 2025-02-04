@@ -1,7 +1,8 @@
 import { Statistics } from "./Statistics";
-import about from "../assets/about.png"
+// import about from "../assets/about.png"
+import about from "/alexMe.png"
 
-export const About = () => {
+export const  About = () => {
   return (
     <section
       id="about"
@@ -20,14 +21,12 @@ export const About = () => {
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
                   About{" "}
                 </span>
-                Ghetto Tech
+                Alex Murimi
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                Ghetto Tech started with a simple idea—turning challenges into opportunities.
-                From urban communities where resources are scarce to the minds of people who won’t settle for less,
-                we’ve been creating practical solutions that make a difference.
-                What began as small-scale projects aimed at tackling safety risks has grown into impactful products that work in real life,
-                not just in theory. We’re not waiting for change to come—we’re building it, and we’re inviting you to be part of this journey
+                As a full-stack developer in Nairobi, Kenya, I craft user-focused, high-performance web applications that are both intuitive and responsive.
+
+                Driven by precision and a problem-solving mindset, I transform ideas into seamless digital experiences that elevate brands and engage users
               </p>
             </div>
 

@@ -23,22 +23,8 @@ interface RouteProps {
 }
 
 const routeList: RouteProps[] = [
-  {
-    href: "#features",
-    label: "Services",
-  },
-  {
-    href: "#testimonials",
-    label: "Testimonials",
-  },
-  {
-    href: "#team",
-    label: "Our Team",
-  },
-  {
-    href: "#faq",
-    label: "FAQ",
-  },
+
+
 ];
 
 export const Navbar = () => {
@@ -54,7 +40,7 @@ export const Navbar = () => {
               className="ml-2 flex text-2xl font-extrabold"
             >
               <LogoIcon />
-              get2Tech
+              Alex Murimi
             </a>
           </NavigationMenuItem>
 
@@ -78,7 +64,7 @@ export const Navbar = () => {
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-extrabold text-2xl">
-                    get2Tech
+                    Alex Murimi
                   </SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col justify-center items-center gap-2 mt-4">

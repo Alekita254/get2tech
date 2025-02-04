@@ -1,6 +1,5 @@
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import { Badge } from "./ui/badge";
-import { Button, buttonVariants } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -9,7 +8,7 @@ import {
   CardTitle,
   CardFooter,
 } from "@/components/ui/card";
-import { Check, Linkedin } from "lucide-react";
+import { Linkedin } from "lucide-react";
 import { LightBulbIcon } from "./Icons";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
@@ -28,30 +27,32 @@ export const HeroCards = () => {
           </Avatar>
 
           <div className="flex flex-col">
-            <CardTitle className="text-lg">John Doe</CardTitle>
-            <CardDescription>@john_doe</CardDescription>
+            <CardTitle className="text-lg">John Kinyua</CardTitle>
+            {/*<CardDescription>@john_doe</CardDescription>*/}
           </div>
         </CardHeader>
 
-        <CardContent>This team is just fantastic!</CardContent>
+        <CardContent>This developer solves most of the need.
+          The creativity he puts in his work is to the next level
+        </CardContent>
       </Card>
 
       <Card className="absolute right-[20px] top-4 w-80 flex flex-col justify-center items-center drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="mt-8 flex justify-center items-center pb-2">
           <img
-            src="/sociallogo.png"
+            src="/alexMurimi.png"
             alt="user avatar"
             className="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
           />
-          <CardTitle className="text-center">Get2Tech Socials</CardTitle>
+          <CardTitle className="text-center">Alex Murimi Socials</CardTitle>
           <CardDescription className="font-normal text-primary">
-            Get in touch with us
+            Get in touch with me
           </CardDescription>
         </CardHeader>
 
         <CardContent className="text-center pb-2">
           <p>
-            For a more personalized posts, follow us in our social platforms.
+            For a more personalized posts, follow me in my social platforms.
           </p>
         </CardContent>
 
@@ -59,7 +60,7 @@ export const HeroCards = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://github.com/"
+              href="https://github.com/Alekita254"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
@@ -92,7 +93,7 @@ export const HeroCards = () => {
 
             <a
               rel="noreferrer noopener"
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/alex-murimi-6a7873218/"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
@@ -106,48 +107,6 @@ export const HeroCards = () => {
         </CardFooter>
       </Card>
 
-      {/* Pricing */}
-      <Card className="absolute top-[150px] left-[50px] w-72  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
-        <CardHeader>
-          <CardTitle className="flex item-center justify-between">
-            Business ERP
-            <Badge
-              variant="secondary"
-              className="text-sm text-primary"
-            >
-              Most popular
-            </Badge>
-          </CardTitle>
-
-          <CardDescription>
-            Making sure your business stands out. <br/>
-            Enjoy the premium services & features
-
-          </CardDescription>
-        </CardHeader>
-
-        <CardContent>
-          <Button className="w-full">Start Now</Button>
-        </CardContent>
-
-        <hr className="w-4/5 m-auto mb-4" />
-
-        <CardFooter className="flex">
-          <div className="space-y-4">
-            {["Project Management", "Accounting ", "many more"].map(
-              (benefit: string) => (
-                <span
-                  key={benefit}
-                  className="flex"
-                >
-                  <Check className="text-green-500" />{" "}
-                  <h3 className="ml-2">{benefit}</h3>
-                </span>
-              )
-            )}
-          </div>
-        </CardFooter>
-      </Card>
 
       {/* Service */}
       <Card className="absolute w-[350px] -right-[10px] bottom-[35px]  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
@@ -156,9 +115,9 @@ export const HeroCards = () => {
             <LightBulbIcon />
           </div>
           <div>
-            <CardTitle>Other Products & Services</CardTitle>
+            <CardTitle> Services</CardTitle>
             <CardDescription className="text-md mt-2">
-              We have also have some of the competitive products, while providing top notch services.
+              I also do other major things such as graphic design.
             </CardDescription>
           </div>
         </CardHeader>
